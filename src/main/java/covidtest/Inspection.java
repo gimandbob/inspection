@@ -32,6 +32,7 @@ public class Inspection {
         Application.applicationContext.getBean(covidtest.external.SendService.class)
                 .send(send);
 
+
 //        if(this.getStatus().equals("CANCELLED")){
 //            if(!this.getResult().equals("UNKNOWN")){
 //                new Exception("진단이 완료된 검사입니다.");
