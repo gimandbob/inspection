@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     IMAGE_REPO_NAME: "admin16-inspection"
-    _PROJECT_NAME: "inspection"
+    _PROJECT_NAME: "admin16-inspection"
 
 
 phases:
