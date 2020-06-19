@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.Date;
 
-@FeignClient(name="kitSend", url="http://kitSend:8080")
+@FeignClient(name="kitSend", url="${api.url.kitsend}")
 public interface SendService {
 
     @RequestMapping(method= RequestMethod.POST, path="/sends")
